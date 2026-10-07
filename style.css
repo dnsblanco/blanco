@@ -5,17 +5,23 @@ Author: Dennis Blanco
 */
 
 body {
-	background-color: #d6e7d5;
+	margin: 0;
+	background-color: #fff;
 	color: black;
-  line-height: 1.5em;
+	font-family: Arial, sans-serif;
+	line-height: 1.5em;
 	}
 
 .container {
-	padding: 70px 0;
-	text-align: center;
-	width: 400px;
+	padding: 70px 2rem;
+	text-align: left;
+	max-width: 400px;
+	}
+
+img {
 	display: block;
-	margin: auto;
+	max-width: 100%;
+	height: auto;
 	}
 
 a {
