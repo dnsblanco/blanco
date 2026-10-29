@@ -8,27 +8,59 @@ body {
 	margin: 0;
 	background-color: #fff;
 	color: black;
-	font-family: Arial, sans-serif;
+	font-family: Georgia, serif;
+	font-size: 14px;
 	line-height: 1.5em;
 	}
 
 .container {
-	padding: 70px 2rem;
+	padding: 40px 2rem 70px;
 	text-align: left;
 	max-width: 400px;
 	}
 
 img {
 	display: block;
-	max-width: 100%;
+	max-width: 70%;
 	height: auto;
 	}
 
 a {
-	color: #42436d;
-	text-decoration: underline;
+	color: #5b7b56;
+	text-decoration: none;
 	}
 
 a:hover {
-	background: #b1e3e7;
+	color: black;
+	}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	}
+
+li::before {
+	content: "- ";
+	}
+
+#books ul {
+	list-style: disc;
+	padding-left: 1.5em;
+	}
+
+#books li::before {
+	content: none;
+	}
+
+#books li {
+	margin-bottom: 0.9em;
+	}
+
+#books h2 {
+	margin-top: 2em;
+	}
+
+.photo {
+	margin-top: 0;
+	margin-bottom: 2.5em;
 	}
