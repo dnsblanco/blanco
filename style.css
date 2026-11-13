@@ -64,3 +64,7 @@ li::before {
 	margin-top: 0;
 	margin-bottom: 2.5em;
 	}
+
+.photo img {
+	max-width: 100%;
+	}
